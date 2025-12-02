@@ -1,0 +1,20 @@
+const port=9006
+const domain ="http://chronos.cs.elon.edu/mfisher24/api";
+
+const getCocktailByNameURL = domain + "/cocktail";
+const cocktailFirstLetterURL = domain + "/firstletter";
+const getByIngredientURL = "/ingredient";
+const cocktailIdURL = "/cocktail/:idDrink";
+const ingredientIdURL = "/ingredient/:idIngredient";
+const randomTenURL = "/random10";
+const popularURL = "/popular";
+const latestURL = "/latest";
+const searchIngredientURL = "/searchIngredient";
+const multiIngredientURL = "/multiIngredient";
+const alcoholicURL = "/alcoholic";
+const categoryURL = "/category";
+const glassURL = "/glass";
+const categoriesURL = "/categories";
+const glassesURL = "/glasses";
+const ingredientsURL = "/ingredients";
+const alcoholsURL = "/alcohols";
