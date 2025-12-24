@@ -64,5 +64,21 @@
 
     <button class="find-button">Find Cocktails 🍸</button>
 </section>
+<section class="results">
+    <h2>🍹 Cocktails You Can Make</h2>
+    <div id="cocktailResults" class="cocktail-results-grid">
+    </div>
+</section>
+<section class="popular">
+    <h2>🔥 Popular Cocktails</h2>
+    <div id="popularCocktails" class="cocktail-results-grid">
+    </div>
+</section>
+<script src="js/constants/urlConstants.js"></script>
+<script src="js/services/services.js"></script>
+<script src="js/views/views.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", setupUI);
+</script>
 </body>
 </html>
